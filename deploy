@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync --progress --exclude-from=.rsyncignore --protocol=29 -crz . cloudadmin@31.28.93.210:/var/www/kharlzhold.co.uk
